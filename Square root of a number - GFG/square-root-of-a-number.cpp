@@ -12,7 +12,7 @@ class Solution{
     long long int floorSqrt(long long int x) 
     {
         // Your code goes here
-        long long sqroot;
+        int sqroot;
    for(int i=0;i*i<=x;i++){
    sqroot=i;
    }
